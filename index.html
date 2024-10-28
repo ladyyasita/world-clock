@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>World Clock - Iaroslava Pozniak</title>
   </head>
@@ -13,28 +13,35 @@
       <h1>World Clock</h1>
       <select id="city">
         <option value="">Select a city:</option>
-        <option value="Singapore">Singapore</option>
-        <option value="Bangkok">Bangkok</option>
-        <option value="Prague">Prague</option>
-        <option value="Kyiv">Kyiv</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Asia/Bangkok">Bangkok</option>
+        <option value="Europe/Kyiv">Kyiv</option>
+        <option value="America/Sao_Paulo">Sao_Paulo</option>
       </select>
-      <div class="city" id="berlin">
-        <h2>Berlin </h2>
-    <div class="date"> </div>
-    <div class="time"> <small>Am</small></div>
-</div>
-    <div class="city" id="chicago">
-        <h2>Chicago</h2>
-   
-    <div class="date"> </div>
-    <div class="time"> <small>Am</small></div>
-     </div>
+
+      <div id="cities">
+        <div class="city" id="berlin">
+          <h2>Berlin</h2>
+          <div class="date"></div>
+          <div class="time"><small>AM</small></div>
+        </div>
+
+        <div class="city" id="chicago">
+          <h2>Chicago</h2>
+          <div class="date"></div>
+          <div class="time"><small>AM</small></div>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      This project was coded with ❤️ by <strong>Iaroslava Pozniak</strong> and is
+      This project was coded with ❤️ by <strong>Iaroslava Pozniak</strong> and
+      is
       <a href="https://world-clock-project-ip.netlify.app/" target="_blank">
         open sourced on GitHub</a
-      >
+      >.
     </footer>
+
     <script src="javascript/index.js"></script>
   </body>
 </html>
