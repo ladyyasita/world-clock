@@ -52,6 +52,7 @@ function updateCity(event) {
         <small>${cityTime.format("A")}</small>
       </div>
     </div>
+    <a href="file:///C:/Users/iaros/Documents/GitHub/world-clock-/index.html">All cities</a>
   `;
 }
 updateTime();
